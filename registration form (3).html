@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+<meta charset="utf-8>
+
+  <style>
+    .content {
+      max-width: 500px;
+	max-height:800px;
+      margin: auto;
+    }
+
+    h1 {
+      text-align: center;
+    }
+
+    body {
+      background-color:white;
+          background-image: url('a9.jpg');
+
+    }
+
+    hr {
+      border-top: 1px solid black;
+    }
+
+    div {
+      border-radius: 10px;
+      border: black;
+      border-width: 2px;
+      border-style: outset;
+      padding: 20px;
+      width: 100%;
+      background-color: paleturquoise;
+      
+    }
+   .wrapper {
+      text-align: center;
+    }
+  </style>
+  <title>
+    Registration Page
+  </title>
+</head>
+
+<body>
+  <div class="content">
+    <form>
+	
+  <img src="a3.jpg" alt="Background image" width="495" height="100">
+  
+      <h1> <strong> <i>Registration Form</i> </strong> </h1>
+      <hr>
+      <label> <u> Name </u> </label> <br />
+      <input type="text" placeholder="Enter Your Name" name="name" size="28" /> <br /> <br />
+      <u>User ID</u><br>
+      <input type="userid" placeholder="UserID" id="userid" name="userid" size="28" /> <br />
+      <br />
+      <u>Address</u>
+      <br />
+      <textarea rows="6" cols="30" placeholder="Enter Your Address"></textarea>
+      <br><br>
+      <label>
+        <u>Phone</u><br>
+      </label>
+      <input type="text" placeholder="9876543210" name="phone" size="28" /> <br />
+      <br />
+      <label>
+        <u>Branch</u><br>
+      </label>
+      <select>
+        <option value="Branch"> <em>Enter Your Branch</em> </option>
+        <option value="CE">CE</option>
+        <option value="CSE">CSE</option>
+        <option value="EC">EC</option>
+        <option value="EEE">EEE</option>
+        <option value="IT">IT</option>
+        <option value="ME">ME</option>
+      </select>
+      <br>
+      <br />
+      <label>
+        <u>Hobbies</u>
+      </label><br />
+      <input type="checkbox" id="hobby1" name="hobby1" value="Reading">
+      <label for="hobby1"> Reading</label>
+      <input type="checkbox" id="hobby2" name="hobby2" value="Jogging">
+      <label for="hobby2">Jogging</label>
+      <input type="checkbox" id="hobby3" name="hobby3" value="Swimming">
+      <label for="hobby3">Swimming</label>
+      <input type="checkbox" id="hobby4" name="hobby4" value="Other">
+      <label for="hobby4">Other</label>
+      <label>
+        <br> <br>
+        <u>Gender</u>
+      </label><br>
+      <input type="radio" id="male" name="gender" /> Male
+      <input type="radio" id="female" name="gender" /> Female
+      <input type="radio" id="other" name="gender" /> Other
+      <input type="radio" id="no" name="gender" /> Prefer not to say
+      <br />
+      <br />
+      <u>Password</u><br>
+      <input type="Password" placeholder="Enter Your Password" id="pass" name="pass" size="28"> <br />
+      <br />
+      <u>Confirm Password</u><br>
+      <input type="Password" placeholder="Confirm Your Password" id="repass" name="repass" size="28"> <br /> <br />
+<section class="wrapper">
+      <input type="button" id="button" value="Submit" /></div>
+  </section>
+  </form>
+  </div>
+</body>
+
+</html>
